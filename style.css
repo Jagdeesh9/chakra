@@ -12,8 +12,8 @@
 
 
 :root{
-    --dark-bg: #06D001;
-    --light-bg: #9BEC00;
+    --dark-bg: #F6F5F2;
+    --light-bg: #F6F5F2;
     --btn-clr: #059212;
 }
 
@@ -187,7 +187,9 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;font-size: 1rem;
-    color: white;
+    color: #280762;
+
+    /* color: white; */
 }
 @media(max-width:900px) {
     #reviews{
